@@ -10,6 +10,7 @@ BepInEx plugin for Gorilla Tag that displays the loaded cosmetic registry in an 
 - Add an item to Gorilla Tag's normal shop cart.
 - Start a purchase through Gorilla Tag's own purchase flow.
 
-## Note
+## Notes
 
 - If a cosmetics price is 0 it is most likely not available.
+- I'm aware adding to cart does not really work, However you can directly buy it through the UI.
