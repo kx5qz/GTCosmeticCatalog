@@ -1,6 +1,6 @@
 # GT Cosmetic Catalog
 
-This mod allows you to view, Add and Buy cosmetics that are available! To use this mod press ``F8`` on you're keyboard to open the menu. From there you can search every cosmetic in the game!
+This mod allows you to view, Add to you're cart and Buy cosmetics that are available! To use this mod press ``F8`` on you're keyboard to open the menu. From there you can search every cosmetic in the game!
 
 > Steam only for now. The mod has not been tested on the PC-Quest version.
 
