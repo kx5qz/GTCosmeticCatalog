@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace GTCosmeticCatalog
+namespace ShopIndex
 {
-    [BepInPlugin("kx5qz.gtcosmeticcatalog", "GT Cosmetic Catalog", "1.0.0")]
+    [BepInPlugin("kx5qz.shopindex", "ShopIndex", "1.0.0")]
     public class Plugin : BaseUnityPlugin
     {
         private bool catalogVisible;
@@ -31,7 +31,7 @@ namespace GTCosmeticCatalog
 
         private void Awake()
         {
-            Logger.LogInfo("GTCosmeticCatalog loaded!");
+            Logger.LogInfo("ShopIndex loaded!");
         }
 
         private void Update()
@@ -72,7 +72,7 @@ namespace GTCosmeticCatalog
                 return;
             }
 
-            GUI.Window(9182, new Rect(20f, 20f, 820f, 760f), DrawCatalogWindow, "GT Cosmetic Catalog");
+            GUI.Window(9182, new Rect(20f, 20f, 820f, 760f), DrawCatalogWindow, "ShopIndex");
         }
 
         private void DrawCatalogWindow(int windowId)

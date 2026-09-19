@@ -6,8 +6,8 @@
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>disable</ImplicitUsings>
-    <AssemblyName>GTCosmeticCatalog</AssemblyName>
-    <RootNamespace>GTCosmeticCatalog</RootNamespace>
+    <AssemblyName>ShopIndex</AssemblyName>
+    <RootNamespace>ShopIndex</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
