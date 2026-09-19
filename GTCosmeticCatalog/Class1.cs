@@ -178,15 +178,21 @@ namespace GTCosmeticCatalog
         private void AddItemToCart(CosmeticsController.CosmeticItem item)
         {
             CosmeticsController cosmeticsController = CosmeticsController.instance;
-            if (cosmeticsController == null)
+            if (cosmeticsController == null || cosmeticsController.currentCart == null)
             {
                 cartMessage = "Cosmetics controller is not ready.";
                 return;
             }
 
-            cosmeticsController.PressWardrobeItemButton(item, false, false);
+            if (cosmeticsController.currentCart.Contains(item))
+            {
+                cartMessage = GetDisplayName(item) + " is already in the cart.";
+                return;
+            }
+
+            cosmeticsController.currentCart.Add(item);
             cosmeticsController.UpdateShoppingCart();
-            cartMessage = item.itemName + " sent to the game's cart flow.";
+            cartMessage = GetDisplayName(item) + " added to the cart.";
         }
 
         private void DrawSelectedItemPanel(CosmeticsController? cosmeticsController)
