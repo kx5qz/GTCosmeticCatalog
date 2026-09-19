@@ -20,3 +20,6 @@ This mod allows you to view, Add and Buy cosmetics that are available! To use th
 
 - I would recommend only using this in private lobby's as i am unaware if adding Admin items into your cart then trying them on is able to be see by others. (You Have Been Warned!)
 - Some items price is 0 this means the item is off-sale and not purchasable.
+
+## Special thanks!
+> This was inspired by GorillaShop made by [The Graze](https://github.com/The-Graze).
