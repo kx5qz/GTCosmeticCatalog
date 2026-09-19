@@ -1,4 +1,5 @@
-﻿using BepInEx;
+﻿// Made by kx5qz
+using BepInEx;
 using GorillaNetworking;
 using PlayFab.ClientModels;
 using System;
