@@ -1,25 +1,29 @@
 # ShopIndex
 
-This mod allows you to view, Add to you're cart and Buy cosmetics that are available! To use this mod press ``F8`` on you're keyboard to open the menu. From there you can search every cosmetic in the game!
+ShopIndex is a Gorilla Tag mod that gives you a searchable in-game Index of the game's cosmetic registry. Browse cosmetics, inspect their details, add items to the normal shop cart.
 
-> Steam only for now. The mod has not been tested on the PC-Quest version.
+> Currently tested on the Steam version of Gorilla Tag. PC-Quest support has not been tested.
 
-<img src="https://github.com/user-attachments/assets/61517fc7-56b6-461c-bf05-5785325fd4c6" width="300" />
-<img src="https://github.com/user-attachments/assets/34e85a78-4f34-4332-8577-4e42614e66bb" width="490" />
+## Getting started
 
+1. Download the latest `ShopIndex.dll` from the repository's Releases page.
+2. Place the DLL in `Gorilla Tag/BepInEx/plugins`.
+3. Start Gorilla Tag and press `F8` to open ShopIndex.
 
 ## Features
 
-- Toggle the catalog with `F8`.
-- Search available cosmetics.
-- View cosmetic names, IDs, categories, and prices.
-- Add item(s) to Gorilla Tag's normal shop cart.
-- Buying item(s) through the UI.
+- Open and close the catalog with `F8`.
+- Search the cosmetic registry by name, ID, category, or price.
+- View cosmetic names, IDs, categories, prices, and availability.
+- Add cosmetics to Gorilla Tag's normal shop cart.
+- Purchases Items in the UI through Gorilla Tag's existing purchase flow.
 
-## Note
+## Important notes
 
-- I would recommend only using this in private lobby's as i am unaware if adding Admin items into your cart then trying them on is able to be see by others. (You Have Been Warned!)
-- Some items price is 0 this means the item is off-sale and not purchasable.
+- Some registry items may appear in the catalog but still be rejected by the game service.
+- Items with a price of `0` are generally off-sale and cannot be purchased.
+- Use the mod in private lobbies. Trying on or attepting to buy admin items does not work.
 
 ## Special thanks!
-> This was inspired by GorillaShop made by [The Graze](https://github.com/The-Graze).
+
+ShopIndex was inspired by GorillaShop by [The Graze](https://github.com/The-Graze).
